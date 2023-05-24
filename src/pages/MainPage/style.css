@@ -1,0 +1,30 @@
+.main-page-wrap {
+    background: black;
+    background-size: 50px;
+    height: 100vh;
+}
+
+.main-block {
+    display: flex;
+    justify-content: center;
+}
+
+.main-block-header {
+    padding-top: 40vh;
+    color: white;
+    font-weight: 600;
+    font-size: calc(var(--index) * 3);
+    width: 31vw;
+}
+
+.main-block-subheader {
+    color: white;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+    width: 31vw;
+}
+
+.main-block-img {
+    background: url(../../visual/img/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png) center center/contain no-repeat;
+    height: calc(var(--index) * 26);
+}
