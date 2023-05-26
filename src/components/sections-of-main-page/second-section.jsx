@@ -7,60 +7,60 @@ const SecondSection = () => {
         <div className="card-block-left">
           <div className="card-wrap">
             <h4 className="card-header">
-              Lorem, ipsum.
+              Курс
             </h4>
             <p className="card-subheader">
-              Lorem.
+              БАРБЕР
             </p>
             <p className="card-courses">
-              Lorem, ipsum.
+              13 занятий
             </p>
             <p className="card-price">
-              Lorem, ipsum dolor.
+              15 000 сом
             </p>
           </div>
           <div className="card-wrap">
             <h4 className="card-header">
-              Lorem, ipsum.
+              Базовый курс
             </h4>
             <p className="card-subheader">
-              Lorem.
+              МАССАЖА
             </p>
             <p className="card-courses">
-              Lorem, ipsum.
+              10 занятий
             </p>
             <p className="card-price">
-              Lorem, ipsum dolor.
+              8 000 сом
             </p>
           </div>
         </div>
         <div className="card-block-right">
           <div className="card-wrap">
             <h4 className="card-header">
-              Lorem, ipsum.
+              Курс
             </h4>
             <p className="card-subheader">
-              Lorem.
+              ПАРИКМАХЕР УНИВЕРСАЛ
             </p>
             <p className="card-courses">
-              Lorem, ipsum.
+              26 занятий
             </p>
             <p className="card-price">
-              Lorem, ipsum dolor.
+              20 000 сом
             </p>
           </div>
           <div className="card-wrap">
             <h4 className="card-header">
-              Lorem, ipsum.
+              Курс
             </h4>
             <p className="card-subheader">
-              Lorem.
+              ВИЗАЖИСТ
             </p>
             <p className="card-courses">
-              Lorem, ipsum.
+              10 занятий
             </p>
             <p className="card-price">
-              Lorem, ipsum dolor.
+              10 000 сом
             </p>
           </div>
         </div>
