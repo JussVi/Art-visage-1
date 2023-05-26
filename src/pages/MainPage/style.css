@@ -23,6 +23,19 @@
     width: 31vw;
 }
 
+.main-block-button {
+    margin-top: 3vh;
+    border-radius: 4vh;
+    text-align: center;
+    line-height: center;
+    padding: 2vh 2vw 3vh;
+    background: red;
+    color: white;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+    display: inline-block;
+}
+
 .main-block-img {
     margin: 20vh 0 0 10vw;
     height: calc(var(--index) * 20);

@@ -9,13 +9,15 @@ function MainPage() {
             <div className="main-block">
                 <div className="main-block-text-info">
                     <h1 className='main-block-header'>
-                        Lorem ipsum dolor sit amet.
+                        Студия Арт Визаж
                     </h1>
                     <p className="main-block-subheader">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, unde cum nemo sit quaerat vel!
+                        Школа парикмахерского искусства         
                     </p>
+                    <a href="#" className="main-block-button">
+                        Записаться
+                    </a>
                 </div>
-                {/* <span className='main-block-img'></span> */}
                 <img src={Main_Logo} alt="Main Logo" className='main-block-img'/>
             </div>
             <div className="card-block">
