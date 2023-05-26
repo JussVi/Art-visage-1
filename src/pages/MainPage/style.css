@@ -54,6 +54,13 @@
     animation: glow 2s ease-in-out infinite;
 }
 
+.main-block-subheader {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+}
+
 .subheader-distance {
     margin-right: 0.5vw;
 }
@@ -374,11 +381,4 @@
     99%, 100% {
         scale: 1;
     }
-}
-
-.main-block-subheader {
-    display: inline-block;
-    color: white;
-    font-weight: 400;
-    font-size: calc(var(--index) * 1);
 }
