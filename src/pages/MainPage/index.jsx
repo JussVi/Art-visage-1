@@ -5,7 +5,9 @@ import SecondSection from "../../components/sections-of-main-page/second-section
 import ThirdSections from "../../components/sections-of-main-page/third-sections";
 import './style.css';
 
+
 function MainPage() {
+
 
   return (
     <div className='main-page-wrap'>
@@ -15,6 +17,7 @@ function MainPage() {
       <FourthSection />
       <div className="footer">
       </div>
+
     </div>
   )
 }
