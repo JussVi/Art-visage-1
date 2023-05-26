@@ -59,10 +59,10 @@
 }
 
 .main-block-button {
-    margin-top: 4vh;
+    margin: 8vh 0vh 0vw 1.5vw;
     border-radius: 4vh;
     text-align: center;
-    padding: 1vh 2vw 2vh;
+    padding: 1vh 2vw 1.5vh;
     background: white;
     color: black;
     font-weight: 400;
@@ -242,8 +242,6 @@
     position: absolute;
     background: url(../../visual/img/aboutUs-three.JPG) center center/cover no-repeat;
 }
-
-
 
 .main-block-subheader-wrap > .main-block-subheader:nth-child(2) {
     animation-delay: 0.25s;
