@@ -25,6 +25,23 @@
     width: 32vw;
 }
 
+.main-block-button {
+    margin-top: 3vh;
+    border-radius: 4vh;
+    text-align: center;
+    padding: 2vh 2vw 3vh;
+    background: white;
+    color: black;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+    display: inline-block;
+}
+
+.main-block-button:hover {
+    box-shadow: 0vh 1vh 4vh rgba(255, 255, 255, 0.5);
+    /* text-shadow: 0vh 0vh 0.1vw black; */
+}
+
 .main-block-img {
     margin-top: 20vh;
     height: calc(var(--index) * 20);
