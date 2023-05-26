@@ -50,7 +50,7 @@
 }
 
 .card-block {
-    margin-top: 30vh;
+    margin-top: 8vh;
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -103,6 +103,15 @@
     background: black;
 }
 
+.info-wrap {
+    display: flex;
+    position: relative;
+}
+
+.info-text-wrap {
+    width: 55vw;
+}
+
 .info-header {
     color: white;
     text-align: center;
@@ -118,3 +127,46 @@
     padding-top: 4vh;
     font-size: calc(var(--index) * 0.9);
 }
+
+.info-subheader-width {
+    width: 40vw;
+}
+
+.info-img-wrap {
+    position: relative;
+}
+
+.info-img {
+    width: 18vw;
+    height: 25vh;
+    border-radius: 3vh;
+    border: 0.3vh solid white;
+    transition: 0.3s;
+}
+
+.info-img:hover {
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.info-first {
+    top: 25vh;
+    left: 5vw;
+    position: absolute;
+    background: url(../../visual/img/aboutUs-one.JPG) center center/cover no-repeat;
+}
+
+.info-second {
+    top: 40vh;
+    left: -8vw;
+    position: absolute;
+    background: url(../../visual/img/aboutUs-two.JPG) center center/cover no-repeat;
+}
+
+.info-third {
+    top: 55vh;
+    left: 5vw;
+    position: absolute;
+    background: url(../../visual/img/aboutUs-three.JPG) center center/cover no-repeat;
+}
+
