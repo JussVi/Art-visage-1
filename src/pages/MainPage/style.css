@@ -9,11 +9,13 @@
 }
 
 .main-block-header {
-    padding: 40vh 0 0 1vw;
+    padding: 30vh 0 0 1vw;
     color: white;
     font-weight: 600;
     font-size: calc(var(--index) * 3);
-    width: 32vw;
+    width: 36vw;
+    text-shadow: 0vh 0vh 0.1vw black;
+
 }
 
 .main-block-subheader {
@@ -25,20 +27,21 @@
 }
 
 .main-block-button {
-    margin-top: 3vh;
+    margin-top: 4vh;
     border-radius: 4vh;
     text-align: center;
-    padding: 2vh 2vw 3vh;
+    padding: 1vh 2vw 2vh;
     background: white;
     color: black;
     font-weight: 400;
     font-size: calc(var(--index) * 1);
     display: inline-block;
+    transition: 0.8s;
 }
 
 .main-block-button:hover {
+    transition: 0.3s;
     box-shadow: 0vh 1vh 4vh rgba(255, 255, 255, 0.5);
-    /* text-shadow: 0vh 0vh 0.1vw black; */
 }
 
 .main-block-img {
@@ -73,7 +76,7 @@
     padding-top: 0.4vh;
     color: black;
     font-weight: 600;
-    font-size: calc(var(--index) * 1.5);
+    font-size: calc(var(--index) * 1.3);
 }
 
 .card-courses {
@@ -87,7 +90,7 @@
     padding-top: 1vh;
     color: black;
     font-weight: 400;
-    font-size: calc(var(--index) * 1);
+    font-size: calc(var(--index) * 1.5);
 }
 
 .info-block {

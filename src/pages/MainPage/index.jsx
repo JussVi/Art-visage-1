@@ -24,16 +24,16 @@ function MainPage() {
                 <div className="card-block-left">
                     <div className="card-wrap">
                         <h4 className="card-header">
-                            Lorem, ipsum.
+                            Курс
                         </h4>
                         <p className="card-subheader">
-                            Lorem.
+                            БАРБЕР
                         </p>
                         <p className="card-courses">
-                            Lorem, ipsum.
+                            13 занятий
                         </p>
                         <p className="card-price">
-                            Lorem, ipsum dolor.
+                            15 000 сом
                         </p>
                     </div>
                     <div className="card-wrap">
