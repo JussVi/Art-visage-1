@@ -12,6 +12,7 @@ const SecondSection = () => {
                 <h4 className="card-header">
                   Курс
                 </h4>
+                
                 <p className="card-subheader">
                   БАРБЕР
                 </p>
