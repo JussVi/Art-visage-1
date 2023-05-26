@@ -8,10 +8,17 @@ function MainPage() {
 
   return (
     <div className='main-page-wrap'>
-      <FirstSection />
-      <SecondSection />
-      <ThirdSections />
-      <div className="footer">
+      <div className='scroll-wrap'>
+        <FirstSection />
+      </div>
+      <div className='scroll-wrap'>
+        <SecondSection />
+      </div>
+      <div className='scroll-wrap'>
+        <ThirdSections />
+      </div>
+      <div className='scroll-wrap'>
+        <div className="footer"></div>
       </div>
     </div>
   )

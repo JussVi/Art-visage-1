@@ -31,15 +31,9 @@ const ThirdSections = () => {
             </p>
           </div>
           <div className="info-img-wrap">
-            <motion.span
-              whileHover={{ scale: 1.2 }}
-              className="info-img info-first" />
-            <motion.span
-              whileHover={{ scale: 1.2 }} 
-              className="info-img info-second" />
-            <motion.span
-              whileHover={{ scale: 1.2 }} 
-              className="info-img info-third" />
+            <span className="info-img info-first"></span>
+            <span className="info-img info-second"></span>
+            <span className="info-img info-third"></span>
           </div>
 
         </div>

@@ -5,7 +5,10 @@
   margin: 0;
   font-family: 'Ysabeau', sans-serif;
   box-sizing: border-box;
-  
+}
+
+html {
+  scroll-snap-type: mandatory;
 }
 
 a, span {
@@ -20,4 +23,18 @@ a, span {
 
 :root {
   --index:calc(1vw + 1vh);
+}
+
+::-webkit-scrollbar {
+  height: 1vh;
+  width: 1vh;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: white;
 }
