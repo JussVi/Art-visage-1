@@ -5,16 +5,25 @@ import SecondSection from "../../components/sections-of-main-page/second-section
 import ThirdSections from "../../components/sections-of-main-page/third-sections";
 import './style.css';
 
+
 function MainPage() {
+
 
   return (
     <div className='main-page-wrap'>
-      <FirstSection />
-      <SecondSection />
-      <ThirdSections />
-      <FourthSection />
-      <div className="footer">
+      <div className='scroll-wrap'>
+        <FirstSection />
       </div>
+      <div className='scroll-wrap'>
+        <SecondSection />
+      </div>
+      <div className='scroll-wrap'>
+        <ThirdSections />
+      </div>
+      <div className='scroll-wrap'>
+        <div className="footer"></div>
+      </div>
+
     </div>
   )
 }
