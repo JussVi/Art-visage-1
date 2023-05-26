@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from "framer-motion"
 
 
 const ThirdSections = () => {
@@ -9,7 +8,7 @@ const ThirdSections = () => {
         <div className="info-wrap">
           <div className="info-text-wrap">
             <h2 className="info-header">
-              О нас          
+              О нас
             </h2>
             <p className="info-subheader">
               «СТУДИЯ АРТ – ВИЗАЖ» - это школа парикмахерского искусства в Бишкеке, которая знает свое дело, помогает приобрести полноценные знания и стать высококвалифицированным и востребованным специалистом.
