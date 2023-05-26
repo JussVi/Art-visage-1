@@ -2,7 +2,7 @@
     position: fixed;
     padding-right: 1vh;
     right: 0;
-    bottom: 0;
+    bottom: -1vh;
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
