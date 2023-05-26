@@ -34,6 +34,7 @@ const ThirdSections = () => {
             <span className="info-img info-first"></span>
             <span className="info-img info-second"></span>
             <span className="info-img info-third"></span>
+            
           </div>
 
         </div>
