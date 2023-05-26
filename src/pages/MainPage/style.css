@@ -1,11 +1,11 @@
 .main-page-wrap {
-    background: black;
     height: 100vh;
 }
 
 .main-block {
     display: flex;
     justify-content: space-around;
+    background: black;
 }
 
 .main-block-header {
@@ -112,4 +112,8 @@
     line-height: 3vh;
     padding-top: 4vh;
     font-size: calc(var(--index) * 0.9);
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #F00;
 }
