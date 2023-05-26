@@ -50,7 +50,7 @@
 }
 
 .card-block {
-    margin-top: 30vh;
+    margin-top: 8vh;
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -103,6 +103,15 @@
     background: black;
 }
 
+.info-wrap {
+    display: flex;
+    position: relative;
+}
+
+.info-text-wrap {
+    width: 55vw;
+}
+
 .info-header {
     color: white;
     text-align: center;
@@ -117,4 +126,3 @@
     line-height: 3vh;
     padding-top: 4vh;
     font-size: calc(var(--index) * 0.9);
-}
