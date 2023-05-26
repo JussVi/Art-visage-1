@@ -113,7 +113,3 @@
     padding-top: 4vh;
     font-size: calc(var(--index) * 0.9);
 }
-
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    background: #F00;
-}
