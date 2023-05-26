@@ -1,30 +1,31 @@
 .main-page-wrap {
     background: black;
-    background-size: 50px;
     height: 100vh;
 }
 
 .main-block {
     display: flex;
+    justify-content: space-around;
 }
 
 .main-block-header {
-    padding-top: 40vh;
+    padding: 40vh 0 0 1vw;
     color: white;
     font-weight: 600;
     font-size: calc(var(--index) * 3);
-    width: 31vw;
+    width: 32vw;
 }
 
 .main-block-subheader {
+    padding-left: 1vw;
     color: white;
     font-weight: 400;
     font-size: calc(var(--index) * 1);
-    width: 31vw;
+    width: 32vw;
 }
 
 .main-block-img {
-    margin: 20vh 0 0 10vw;
+    margin-top: 20vh;
     height: calc(var(--index) * 20);
 }
 
@@ -40,7 +41,8 @@
     background: white;
     width: calc(var(--index) * 20);
     border: 0.1vh solid rgba(71, 68, 255, 0.4);
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(71, 68, 255, 0.4);    border-radius: 1vw;
+    box-shadow: 1vh 1vw 1vw rgba(0,0,0,0.25), 1vh 1vh 1vw rgba(71, 68, 255, 0.4);
+    border-radius: 1vw;
     padding: 4vh 4vh;
 }
 
