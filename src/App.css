@@ -26,15 +26,11 @@ a, span {
 }
 
 ::-webkit-scrollbar {
-  height: 1vh;
-  width: 1vh;
+  width: 1.03vh;
+  background: black;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: orange;
-  -webkit-border-radius: 1ex;
-}
-
-::-webkit-scrollbar-corner {
-  background: white;
+  background: #7df9ff;
+  -webkit-border-radius: 1vh;
 }

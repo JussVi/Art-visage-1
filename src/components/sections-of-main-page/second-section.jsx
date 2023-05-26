@@ -82,6 +82,14 @@ const SecondSection = () => {
               </span>
             </div>
           </div>
+          <a href="#" className="card-block-button">
+            <p className="card-block-button-item-1">Б</p>
+            <p className="card-block-button-item-2">О</p>
+            <p className="card-block-button-item-3">Л</p>
+            <p className="card-block-button-item-4">Ь</p>
+            <p className="card-block-button-item-5">Ш</p>
+            <p className="card-block-button-item-6">Е</p>
+          </a>
         </div>
       </div>
   );
