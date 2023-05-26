@@ -1,11 +1,12 @@
 .main-page-wrap {
-    background: black;
+    /*background: black;*/
     height: 100vh;
 }
 
 .main-block {
     display: flex;
     justify-content: space-around;
+    background: black;
 }
 
 .main-block-header {
