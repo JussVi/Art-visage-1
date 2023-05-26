@@ -15,7 +15,7 @@ function MainPage() {
                         Школа парикмахерского искусства         
                     </p>
                     <a href="#" className="main-block-button">
-                        Записаться
+                        Записаться 
                     </a>
                 </div>
                 <img src={Main_Logo} alt="Main Logo" className='main-block-img'/>
