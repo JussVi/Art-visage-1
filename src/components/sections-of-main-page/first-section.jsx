@@ -15,9 +15,95 @@ const FirstSection = () => {
            <h1 className='main-block-header'>
             Студия Арт Визаж
            </h1>
-           <p className="main-block-subheader">
-            Школа парикмахерского искусства
-           </p>
+           <div className="main-block-subheader-wrap">
+            <p className="main-block-subheader">
+              Ш
+            </p>
+            <p className="main-block-subheader">
+              к
+            </p>
+            <p className="main-block-subheader">
+              о
+            </p>
+            <p className="main-block-subheader">
+              л
+            </p>
+            <p className="main-block-subheader subheader-distance">
+              а
+            </p>
+            <p className="main-block-subheader">
+              п
+            </p>
+            <p className="main-block-subheader">
+              а
+            </p>
+            <p className="main-block-subheader">
+              р
+            </p>
+            <p className="main-block-subheader">
+              и
+            </p>
+            <p className="main-block-subheader">
+              к
+            </p>
+            <p className="main-block-subheader">
+              м
+            </p>
+            <p className="main-block-subheader">
+              а
+            </p>
+            <p className="main-block-subheader">
+              х
+            </p>
+            <p className="main-block-subheader">
+              е
+            </p>
+            <p className="main-block-subheader">
+              р
+            </p>
+            <p className="main-block-subheader">
+              с
+            </p>
+            <p className="main-block-subheader">
+              к
+            </p>
+            <p className="main-block-subheader">
+              о
+            </p>
+            <p className="main-block-subheader">
+              г
+            </p>
+            <p className="main-block-subheader subheader-distance">
+              о
+            </p>
+            <p className="main-block-subheader">
+              и
+            </p>
+            <p className="main-block-subheader">
+              с
+            </p>
+            <p className="main-block-subheader">
+              к
+            </p>
+            <p className="main-block-subheader">
+              у
+            </p>
+            <p className="main-block-subheader">
+              с
+            </p>
+            <p className="main-block-subheader">
+              с
+            </p>
+            <p className="main-block-subheader">
+              т
+            </p>
+            <p className="main-block-subheader">
+              в
+            </p>
+            <p className="main-block-subheader">
+              а
+            </p>
+           </div>
            <a href="#" className="main-block-button">
             Записаться
            </a>
