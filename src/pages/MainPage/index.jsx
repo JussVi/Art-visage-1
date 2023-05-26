@@ -19,6 +19,7 @@ function MainPage() {
 
       <div className="footer">
       </div>
+
     </div>
   )
 }
