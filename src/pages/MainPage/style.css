@@ -19,17 +19,43 @@
     color: white;
     font-weight: 600;
     font-size: calc(var(--index) * 3);
-    width: 36vw;
-    text-shadow: 0.2vh 0.2vh 0.35vw white;
-
+    width: 40vw;
 }
 
-.main-block-subheader {
-    padding-left: 1vw;
-    color: white;
-    font-weight: 400;
-    font-size: calc(var(--index) * 1);
-    width: 32vw;
+.main-block-header {
+    animation: flicker 2s ease-in-out infinite;
+}
+
+@keyframes flicker {
+   
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow:
+        0 0 4px black,
+        0 0 11px black,
+        0 0 19px black,
+        0 0 40px #FF1493,
+        0 0 80px #FF1493,
+        0 0 90px #FF1493,
+        0 0 100px #FF1493,
+        0 0 110px #FF1493;
+    }
+   
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+}
+
+.main-block-subheader-wrap {
+    width: 25vw;
+    padding-left: 2vw;
+}
+
+.main-block-subheader-wrap > .main-block-subheader {
+    animation: glow 2s ease-in-out infinite;
+}
+
+.subheader-distance {
+    margin-right: 0.5vw;
 }
 
 .main-block-button {
@@ -50,9 +76,6 @@
     box-shadow: 0vh 1vh 4vh rgba(255, 255, 255, 0.5);
     
 }
-
-
-/* .main-block-button::before */
 
 .main-block-img {
     margin-top: 20vh;
@@ -151,7 +174,7 @@
     width: 18vw;
     height: 25vh;
     border-radius: 3vh;
-    /* border: 0.3vh solid white; */
+    border: 0.3vh solid white;
     transition: 0.3s;
 }
 
@@ -182,3 +205,109 @@
     background: url(../../visual/img/aboutUs-three.JPG) center center/cover no-repeat;
 }
 
+
+
+.main-block-subheader-wrap > .main-block-subheader:nth-child(2) {
+    animation-delay: 0.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(3) {
+    animation-delay: 0.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(4) {
+    animation-delay: 0.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(5) {
+    animation-delay: 1s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(6) {
+    animation-delay: 1.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(7) {
+    animation-delay: 1.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(8) {
+    animation-delay: 1.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(9) {
+    animation-delay: 2s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(10) {
+    animation-delay: 2.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(11) {
+    animation-delay: 2.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(12) {
+    animation-delay: 2.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(13) {
+    animation-delay: 3s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(14) {
+    animation-delay: 3.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(15) {
+    animation-delay: 3.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(16) {
+    animation-delay: 3.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(17) {
+    animation-delay: 4s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(18) {
+    animation-delay: 4.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(19) {
+    animation-delay: 4.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(20) {
+    animation-delay: 4.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(21) {
+    animation-delay: 5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(22) {
+    animation-delay: 5.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(23) {
+    animation-delay: 5.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(24) {
+    animation-delay: 5.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(25) {
+    animation-delay: 6s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(26) {
+    animation-delay: 6.25s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(27) {
+    animation-delay: 6.5s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(28) {
+    animation-delay: 6.75s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(29) {
+    animation-delay: 7s;
+}
+.main-block-subheader-wrap > .main-block-subheader:nth-child(30) {
+    animation-delay: 7.25s;
+}
+
+@keyframes glow {
+    0%, 100% {
+        color: #FF1493;
+        text-shadow: 0 0 12px #FF1493, 0 0 50px #FF1493, 0 0 100px #FF1493;
+    }
+    10%, 90% {
+        color: #fff;
+        text-shadow: none;
+    }
+}
+.main-block-subheader {
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+}
