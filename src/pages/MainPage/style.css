@@ -472,3 +472,28 @@
         scale: 1;
     }
 }
+
+
+/*СТИЛИ ОТ ЧЕТВЕРОГО БЛОКА*/
+
+.main-block-masters-cards {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-block-one-master-swipe {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.photo-of-master {
+    width: 35vh;
+    height: 50vh;
+}
+
+.for-padding-to-bottom {
+    padding-bottom: 15vh;
+}
