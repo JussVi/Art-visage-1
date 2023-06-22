@@ -1,9 +1,11 @@
 import React from 'react';
-
+import '../../pages/MainPage/style.css'
+import {useParallax} from "react-scroll-parallax";
 
 const ThirdSections = () => {
+  const { ref } = useParallax({ speed: 10})
   return (
-    <div className="info-block">
+    <div ref={ref} className="info-block">
       <div className="container">
         <div className="info-wrap">
           <div className="info-text-wrap">

@@ -1,9 +1,12 @@
 import React from 'react';
+import '../../pages/MainPage/style.css'
+import {useParallax} from "react-scroll-parallax";
 
 const SecondSection = () => {
+  const { ref } = useParallax({ speed: 10})
   return (
       <div className="container">
-        <div className="card-block">
+        <div ref={ref} className="card-block">
           <div className="card-block-left">
             <div className="card-wrap">
               <div className="card-text-wrap">
