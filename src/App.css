@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-snap-type: mandatory;
-}
-
 a, span {
   display: block;
   text-decoration: none;
@@ -23,14 +19,4 @@ a, span {
 
 :root {
   --index:calc(1vw + 1vh);
-}
-
-::-webkit-scrollbar {
-  width: 1.03vh;
-  background: black;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #7df9ff;
-  -webkit-border-radius: 1vh;
 }

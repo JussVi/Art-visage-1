@@ -1,11 +1,5 @@
 .main-page-wrap {
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.scroll-wrap {
-	scroll-snap-align: start;
 }
 
 .main-block {
