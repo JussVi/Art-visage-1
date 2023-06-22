@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,300;0,500;0,600;1,300&display=swap');
 
+
 * {
   padding: 0;
   margin: 0;
   font-family: 'Ysabeau', sans-serif;
   box-sizing: border-box;
+  background: black;
 }
 
 a, span {

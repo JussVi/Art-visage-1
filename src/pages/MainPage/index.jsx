@@ -10,24 +10,24 @@ import CircularIndeterminate from "../../components/loader";
 
 function MainPage() {
 
-    const [data, setData] = useState([])
+    // const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(false)
-
-    useEffect(() => {
-        fetchData()
-    }, [])
-
-    const fetchData = async () => {
-        setIsLoading(true)
-        try {
-            const response = await axios.get('http://localhost:1337/api/masters')
-            setData(response.data.data)
-        } catch (error) {
-            alert('error')
-        } finally {
-            setIsLoading(false)
-        }
-    }
+    //
+    // useEffect(() => {
+    //     fetchData()
+    // }, [])
+    //
+    // const fetchData = async () => {
+    //     setIsLoading(true)
+    //     try {
+    //         const response = await axios.get('http://localhost:1337/api/masters')
+    //         setData(response.data.data)
+    //     } catch (error) {
+    //         alert('error')
+    //     } finally {
+    //         setIsLoading(false)
+    //     }
+    // }
 
   return (
         <>
@@ -35,24 +35,14 @@ function MainPage() {
                 <CircularIndeterminate />
                 :
                 <div className='main-page-wrap'>
-                    <div className='scroll-wrap'>
                         <FirstSection />
-                    </div>
-                    <div className='scroll-wrap'>
                         <SecondSection />
-                    </div>
-                    <div className='scroll-wrap'>
                         <ThirdSections />
-                    </div>
-                    <div className='scroll-wrap'>
-                        <FourthSection
-                            data={data}
-                        />
-                    </div>
-                    <div className='scroll-wrap'>
+                        {/*<FourthSection*/}
+                        {/*    data={data}*/}
+                        {/*/>*/}
 
                         <div className="footer"></div>
-                    </div>
 
                 </div>
             }

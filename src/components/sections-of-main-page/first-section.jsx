@@ -11,6 +11,7 @@ const FirstSection = () => {
           initial={{x: -40, opacity: 0}}
           whileInView={{x: 0, opacity: 1}}
           transition={{ ease: "easeInOut", duration: 0.8 }}
+          viewport={{ once: true }}
           className="main-block-text-info">
           <h1 className='main-block-header'>
           Студия Арт Визаж
