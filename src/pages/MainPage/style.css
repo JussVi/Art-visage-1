@@ -471,23 +471,41 @@
 /*СТИЛИ ОТ ЧЕТВЕРОГО БЛОКА*/
 
 .main-block-masters-cards {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding-bottom: 8vh;
 
-.main-block-one-master-swipe {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
 }
 
 .photo-of-master {
-    width: 35vh;
+    width: 20vw;
+    height: 67vh;
+    margin-top: 8vh;
+    text-align: center;
+    padding: 2vh;
+    border: 0.1vh solid #7df9ff;
+    border-radius: 1vw;
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+    box-shadow: 1vh 1vw 1vw #7df9ffaf, 1vh 1vh 1vw #7df8ffaf;
+    transition: 0.4s;
+}
+
+.photo-of-master-img {
+    width: 18vw;
     height: 50vh;
 }
 
-.for-padding-to-bottom {
-    padding-bottom: 15vh;
+.photo-of-master:hover {
+    scale: 1.2;
+    z-index: 2;
 }
+
+.master-description {
+    color: white;
+}
+
+
+
+
