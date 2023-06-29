@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Art-visage-1/static/css/main.f226f1d4.css",
+    "main.js": "/Art-visage-1/static/js/main.d4a4e4bc.js",
+    "static/media/aboutUs-two.JPG": "/Art-visage-1/static/media/aboutUs-two.cb2a215d86ff5aabd968.JPG",
+    "static/media/aboutUs-three.JPG": "/Art-visage-1/static/media/aboutUs-three.24cd0927faa736387efe.JPG",
+    "static/media/aboutUs-one.JPG": "/Art-visage-1/static/media/aboutUs-one.40c11468690620814940.JPG",
+    "static/media/main-bg.png": "/Art-visage-1/static/media/main-bg.ff15f9df2d978fc8dd6d.png",
+    "static/media/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png": "/Art-visage-1/static/media/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.af68508f3ad2cee3ed92.png",
+    "static/media/Aisuluu.png": "/Art-visage-1/static/media/Aisuluu.33046d9c297f5d6611e1.png",
+    "static/media/Zlata.png": "/Art-visage-1/static/media/Zlata.08d97d01328ebf09373d.png",
+    "static/media/Damira.png": "/Art-visage-1/static/media/Damira.bc2bacd9754d407b39b3.png",
+    "static/media/Anton.png": "/Art-visage-1/static/media/Anton.a5d2cc7b0ea36b12e54c.png",
+    "static/media/Olga.png": "/Art-visage-1/static/media/Olga.5866459bec409dd26764.png",
+    "static/media/Zalina.png": "/Art-visage-1/static/media/Zalina.b01a259416234e609d63.png",
+    "static/media/haircut.png": "/Art-visage-1/static/media/haircut.265ced428c1af6095467.png",
+    "index.html": "/Art-visage-1/index.html",
+    "main.f226f1d4.css.map": "/Art-visage-1/static/css/main.f226f1d4.css.map",
+    "main.d4a4e4bc.js.map": "/Art-visage-1/static/js/main.d4a4e4bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f226f1d4.css",
+    "static/js/main.d4a4e4bc.js"
+  ]
+}
