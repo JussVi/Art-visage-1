@@ -1,10 +1,15 @@
 import React from 'react';
+import MainPage from "./pages/MainPage";
+import {ParallaxProvider} from "react-scroll-parallax";
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <ParallaxProvider>
+      <div className="App">
+        <MainPage />
+      </div>
+    </ParallaxProvider>
   );
 }
 

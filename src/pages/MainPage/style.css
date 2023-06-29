@@ -1,11 +1,5 @@
 .main-page-wrap {
     height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-}
-
-.scroll-wrap {
-	scroll-snap-align: start;
 }
 
 .main-block {
@@ -132,12 +126,12 @@
     border-radius: 1vw;
     padding: 4vh 4vh;
     display: flex;
-    animation: big-small 2s ease-in-out infinite;
+    transition: 0.89s;
+    /*animation: big-small 2s ease-in-out infinite;*/
 }
 
 .card-wrap:hover {
     scale: 1.2;
-    transition: 0.89s;
 }
 
 .card-header {
@@ -477,23 +471,41 @@
 /*СТИЛИ ОТ ЧЕТВЕРОГО БЛОКА*/
 
 .main-block-masters-cards {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    padding-bottom: 8vh;
 
-.main-block-one-master-swipe {
-    text-align: center;
-    width: 60%;
-    margin: 0 auto;
 }
 
 .photo-of-master {
-    width: 35vh;
+    width: 20vw;
+    height: 67vh;
+    margin-top: 8vh;
+    text-align: center;
+    padding: 2vh;
+    border: 0.1vh solid #7df9ff;
+    border-radius: 1vw;
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+    box-shadow: 1vh 1vw 1vw #7df9ffaf, 1vh 1vh 1vw #7df8ffaf;
+    transition: 0.4s;
+}
+
+.photo-of-master-img {
+    width: 18vw;
     height: 50vh;
 }
 
-.for-padding-to-bottom {
-    padding-bottom: 15vh;
+.photo-of-master:hover {
+    scale: 1.2;
+    z-index: 2;
 }
+
+.master-description {
+    color: white;
+}
+
+
+
+
