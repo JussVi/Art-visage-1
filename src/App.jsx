@@ -4,6 +4,7 @@ import {ParallaxProvider} from "react-scroll-parallax";
 import './App.css';
 
 function App() {
+    // test test test
   return (
     <ParallaxProvider>
       <div className="App">
