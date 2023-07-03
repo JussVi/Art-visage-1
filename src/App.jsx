@@ -3,11 +3,7 @@ import MainPage from "./pages/MainPage";
 import CoursesPage from './pages/CoursesPage';
 import Footer from "./components/footer/footer";
 import Header from "./components/header/header";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from 'react-router-dom';
+import {Switch, Route} from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -18,7 +14,7 @@ function App() {
           <Route exact path="/" component={MainPage} />
           <Route exact path="/courses" component={CoursesPage} />
         </Switch>
-        <Footer />
+        {/*<Footer />*/}
       </div>
   );
 }

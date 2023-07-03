@@ -53,34 +53,45 @@
 
 .Anton-Shugalsky {
     display: none;
+    height: 100%;
 }
 
 .Zlata-Zorova {
     display: none;
+    height: 100%;
 }
 
 .Zalina-Hasanova {
     display: none;
+    height: 100%;
 }
 
 .Doroganova-Olga {
     display: none;
+    height: 100%;
 }
 
 .Sultanalieva-Aisuluu {
     display: none;
+    height: 100%;
 }
 
 .Shakirova_Damira {
     display: none;
+    height: 100%;
 }
 
 .active-modal {
     display: block;
 }
 
-
-
+.modal-window-flex {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    padding: 0 5vh;
+}
 
 .photo-of-master-modal {
     width: 15vw;
@@ -88,6 +99,22 @@
     text-align: center;
     padding: 2vh;
     border-radius: 1vw;
-    box-shadow: 1vh 1vw 1vw white, 1vh 1vh 1vw white;
     transition: 0.4s;
+    border: 0.1vh solid #7df9ff;
 }
+
+.description-of-master-modal-wrap {
+    color: white;
+    margin-left: 3vh;
+}
+
+.description-of-master-modal-who-is {
+    padding: 0 1.5vh;
+}
+
+.description-of-master-modal {
+    padding: 1.2vh;
+    font-size: 18px;
+}
+
+

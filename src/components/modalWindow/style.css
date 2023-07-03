@@ -28,6 +28,8 @@
     width: 60vw;
     height: 80vh;
     border: 0.1vh solid #7df9ff;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .modal__content.active {
