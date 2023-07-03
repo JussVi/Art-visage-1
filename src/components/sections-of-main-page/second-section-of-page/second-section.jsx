@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css'
-
+import {useParallax} from "react-scroll-parallax";
+import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 const SecondSection = () => {
 
@@ -83,14 +84,14 @@ const SecondSection = () => {
               </span>
             </div>
           </div>
-          <a href="src/components/sections-of-main-page/second-section-of-page/second-section#" className="card-block-button">
+          <Link to="/courses" className="card-block-button">
             <p className="card-block-button-item-1">Б</p>
             <p className="card-block-button-item-2">О</p>
             <p className="card-block-button-item-3">Л</p>
             <p className="card-block-button-item-4">Ь</p>
             <p className="card-block-button-item-5">Ш</p>
             <p className="card-block-button-item-6">Е</p>
-          </a>
+          </Link>
         </div>
       </div>
   );

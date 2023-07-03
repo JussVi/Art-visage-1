@@ -120,7 +120,7 @@ const FirstSection = () => {
              </motion.a>
            </motion.div>
            <div className="main-block-img-wrap">
-             <img src={Main_Logo} alt="Main Logo" className='main-block-img'/>
+            <span className="main-block-img"></span>
              <span className='main-block-bg-img'></span>
            </div>
          </div>

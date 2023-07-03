@@ -1,6 +1,6 @@
 .main-block-masters-cards {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     place-items: center;
     padding-bottom: 8vh;
     overflow: hidden;
@@ -10,7 +10,7 @@
 .photo-of-master {
     width: 15vw;
     height: 35vh;
-    margin-top: 9vh;
+    margin-top: 11vh;
     text-align: center;
     padding: 2vh;
     border: 0.1vh solid #7df9ff;
