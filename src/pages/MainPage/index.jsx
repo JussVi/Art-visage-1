@@ -1,57 +1,30 @@
-import React, {useEffect, useState} from 'react';
-import FirstSection from "../../components/sections-of-main-page/first-section";
-import SecondSection from "../../components/sections-of-main-page/second-section";
-import ThirdSections from "../../components/sections-of-main-page/third-sections";
-import FourthSection from "../../components/sections-of-main-page/fourth-section";
-import axios from "axios";
-import './style.css';
+import React, {useState} from 'react';
+import FirstSection from "../../components/sections-of-main-page/first-section-of-page/first-section";
+import SecondSection from "../../components/sections-of-main-page/second-section-of-page/second-section";
+import ThirdSections from "../../components/sections-of-main-page/third-section-of-page/third-sections";
 import CircularIndeterminate from "../../components/loader";
-import Header from '../../components/header/header';
-import Footer from '../../components/footer/footer';
+import FourthSection from "../../components/sections-of-main-page/fourth-section-of-page/forth-section";
+import './style.css';
 
 
 function MainPage() {
 
-    // const [data, setData] = useState([])
     const [isLoading, setIsLoading] = useState(false)
-    //
-    // useEffect(() => {
-    //     fetchData()
-    // }, [])
-    //
-    // const fetchData = async () => {
-    //     setIsLoading(true)
-    //     try {
-    //         const response = await axios.get('http://localhost:1337/api/masters')
-    //         setData(response.data.data)
-    //     } catch (error) {
-    //         alert('error')
-    //     } finally {
-    //         setIsLoading(false)
-    //     }
-    // }
 
-  return (
+    return (
         <>
             { isLoading ?
                 <CircularIndeterminate />
                 :
                 <div className='main-page-wrap'>
-                        <Header />
-                        <FirstSection />
-                        <SecondSection />
-                        <ThirdSections />
-                        {/*<FourthSection*/}
-                        {/*    data={data}*/}
-                        {/*/>*/}
-                        <Footer />
-
-                        <div className="footer"></div>
-
+                    <FirstSection />
+                    <SecondSection />
+                    <ThirdSections />
+                    <FourthSection />
                 </div>
             }
         </>
-  )
+    )
 }
 
 export default MainPage

@@ -1,0 +1,52 @@
+.main-block-masters-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    padding-bottom: 8vh;
+    overflow: hidden;
+
+}
+
+.photo-of-master {
+    width: 15vw;
+    height: 35vh;
+    margin-top: 9vh;
+    text-align: center;
+    padding: 2vh;
+    border: 0.1vh solid #7df9ff;
+    border-radius: 1vw;
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+    box-shadow: 1vh 1vw 1vw #7df9ffaf, 1vh 1vh 1vw #7df8ffaf;
+    transition: 0.4s;
+}
+
+.photo-of-master-img {
+    width: 10vw;
+    height: 30vh;
+    margin: 2vh;
+}
+
+.photo-of-master:hover  {
+    scale: 1.1;
+    z-index: 2;
+    box-shadow: 1vh 1vw 1vw red, 1vh 1vh 1vw red;
+    color: red;
+}
+
+.master-description {
+    color: white;
+}
+
+.name-of-master {
+    animation: flicker-second 3s ease-in-out infinite;
+    text-shadow: 0 0 40px #7df9ff;
+    color: #7df9ff;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0.1vh solid #7df9ff;
+}
+
+
+

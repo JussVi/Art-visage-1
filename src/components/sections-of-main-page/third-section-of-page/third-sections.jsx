@@ -1,7 +1,8 @@
 import React from 'react';
-
+import './style.css'
 
 const ThirdSections = () => {
+
   return (
     <div className="info-block">
       <div className="container">
