@@ -81,7 +81,8 @@
 
 .main-block-img {
     box-shadow: 1vh 1vw 1vw #ff149107, 1vh 1vh 1vw #ff149107;
-    background: #ff149104;
+    background: url(../../../visual/img/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png) center center/cover no-repeat;
+    width: 60vh;
     backdrop-filter: blur(1.5px);
     margin-top: 20vh;
     height: calc(var(--index) * 20);
@@ -90,8 +91,41 @@
     top: 1vh;
     right: -7vw;
     border-radius: 15vw;
-    border: 0.1vh solid #ff1491bd;
+    border: 0.01vw solid #ff1491bd;
 }
+
+.main-block-img::after,
+.main-block-img::before {
+  content: '';
+  position: absolute;
+  border: 0.2vh solid #ff1491bd;
+  left: -10vh;
+  opacity: 0;
+  right: -10vh;
+  top: -10vh;
+  bottom: -10vh;
+  border-radius: 50%;
+  animation: pulse-main 2.5s linear infinite;
+}
+
+.main-block-img::after {
+  animation-delay: 1.5s;
+}
+
+@keyframes pulse-main {
+  0% {
+    transform: scale(0.73);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
 .main-block-bg-img {
     opacity: 0.8;
     display: block;
