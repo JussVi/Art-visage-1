@@ -6,6 +6,8 @@ import FourthSection from "../../components/sections-of-main-page/fourth-section
 import axios from "axios";
 import './style.css';
 import CircularIndeterminate from "../../components/loader";
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
 
 
 function MainPage() {
@@ -35,12 +37,14 @@ function MainPage() {
                 <CircularIndeterminate />
                 :
                 <div className='main-page-wrap'>
+                        <Header />
                         <FirstSection />
                         <SecondSection />
                         <ThirdSections />
                         {/*<FourthSection*/}
                         {/*    data={data}*/}
                         {/*/>*/}
+                        <Footer />
 
                         <div className="footer"></div>
 
