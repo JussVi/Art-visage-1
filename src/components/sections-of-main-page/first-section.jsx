@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import Main_Logo from "../../visual/img/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png";
-import Bg_Img from "../../visual/img/main-bg.png";
 
 const FirstSection = () => {
   return (
@@ -9,9 +8,10 @@ const FirstSection = () => {
      <div className="container">
        <div className="main-block">
         <motion.div
-          initial={{x: -150, opacity: 0}}
-          animate={{x: 0, opacity: 1}}
-          transition={{ ease: "easeInOut", duration: 1.5 }}
+          initial={{x: -40, opacity: 0}}
+          whileInView={{x: 0, opacity: 1}}
+          transition={{ ease: "easeInOut", duration: 0.8 }}
+          viewport={{ once: true }}
           className="main-block-text-info">
           <h1 className='main-block-header'>
           Студия Арт Визаж

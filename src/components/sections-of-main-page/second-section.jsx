@@ -1,12 +1,10 @@
 import React from 'react';
-import VideoBackground from "../video-background";
 
 const SecondSection = () => {
   return (
       <div className="container">
         <div className="card-block">
           <div className="card-block-left">
-            <VideoBackground />
             <div className="card-wrap">
               <div className="card-text-wrap">
                 <h4 className="card-header">
