@@ -1,7 +1,8 @@
 import React from 'react';
 import MainPage from "./pages/MainPage";
 import CoursesPage from './pages/CoursesPage';
-import {ParallaxProvider} from "react-scroll-parallax";
+import Footer from "./components/footer/footer";
+import Header from "./components/header/header";
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,14 +12,14 @@ import './App.css';
 
 function App() {
   return (
-    <ParallaxProvider>
       <div className="App">
+        <Header/>
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/courses" component={CoursesPage} />
         </Switch>
+        <Footer />
       </div>
-    </ParallaxProvider>
   );
 }
 

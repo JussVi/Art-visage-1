@@ -1,0 +1,24 @@
+.header_links{
+    display: flex;
+    justify-content: center;
+}
+
+.header_links > li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header_link{
+    padding: 20px 50px;
+}
+
+.header_link a {
+    color: #fff;
+    font-weight: 400;
+    font-size: calc(var(--index) * 1);
+    transition: color 0.3s ease-in-out,
+}
+
+.header_link a:hover{
+    color: #FF1493;
+}

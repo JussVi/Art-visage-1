@@ -4,9 +4,9 @@ import {useParallax} from "react-scroll-parallax";
 import { Link } from 'react-router-dom/cjs/react-router-dom';
 
 const SecondSection = () => {
-  const { ref } = useParallax({ speed: 10})
+
   return (
-      <div ref={ref} className="container">
+      <div className="container">
         <div  className="card-block">
           <div className="card-block-left">
             <div className="card-wrap">

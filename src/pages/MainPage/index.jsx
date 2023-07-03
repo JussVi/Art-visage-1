@@ -11,22 +11,20 @@ function MainPage() {
 
     const [isLoading, setIsLoading] = useState(false)
 
-  return (
+    return (
         <>
             { isLoading ?
                 <CircularIndeterminate />
                 :
                 <div className='main-page-wrap'>
-                        <FirstSection />
-                        <SecondSection />
-                        <ThirdSections />
-                        <FourthSection />
-                  <div className="footer"></div>
-
+                    <FirstSection />
+                    <SecondSection />
+                    <ThirdSections />
+                    <FourthSection />
                 </div>
             }
         </>
-  )
+    )
 }
 
 export default MainPage
