@@ -21,8 +21,6 @@ function MainPage() {
                         <SecondSection />
                         <ThirdSections />
                         <FourthSection />
-                  <div className="footer"></div>
-
                 </div>
             }
         </>
