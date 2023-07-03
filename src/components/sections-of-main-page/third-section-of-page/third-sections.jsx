@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../pages/MainPage/style.css'
+import './style.css'
 import {useParallax} from "react-scroll-parallax";
 
 const ThirdSections = () => {
