@@ -1,7 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './style.css'
 
 const ModalWindow = ({isModalActive, setIsModalActive, children}) => {
+
+    useEffect(() => {
+        function handleEscKeyPress(event) {
+            if (event.key === "Escape") {
+                setIsModalActive(false);
+            }
+        }
+        document.addEventListener("keydown", handleEscKeyPress);
+        return () => {
+            document.removeEventListener("keydown", handleEscKeyPress);
+        };
+    }, []);
 
     return (
         <div onClick={() => setIsModalActive(false)} className={isModalActive ? 'modal active' : 'modal'}>
