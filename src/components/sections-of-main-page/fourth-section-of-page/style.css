@@ -49,4 +49,45 @@
 }
 
 
+                    /*Стили модального окна*/
 
+.Anton-Shugalsky {
+    display: none;
+}
+
+.Zlata-Zorova {
+    display: none;
+}
+
+.Zalina-Hasanova {
+    display: none;
+}
+
+.Doroganova-Olga {
+    display: none;
+}
+
+.Sultanalieva-Aisuluu {
+    display: none;
+}
+
+.Shakirova_Damira {
+    display: none;
+}
+
+.active-modal {
+    display: block;
+}
+
+
+
+
+.photo-of-master-modal {
+    width: 15vw;
+    height: 35vh;
+    text-align: center;
+    padding: 2vh;
+    border-radius: 1vw;
+    box-shadow: 1vh 1vw 1vw white, 1vh 1vh 1vw white;
+    transition: 0.4s;
+}
