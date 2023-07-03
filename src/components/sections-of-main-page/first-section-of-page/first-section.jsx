@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../pages/MainPage/style.css'
+import './style.css';
 import { motion } from "framer-motion";
-import Main_Logo from "../../visual/img/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png";
+import Main_Logo from "../../../visual/img/woman-s-face-is-made-up-geometric-shapes-cyberpunk-colorful-fractalism-cubism_834088-1-_1_-removebg-preview.png";
 import {Parallax, useParallax} from "react-scroll-parallax";
 
 const FirstSection = () => {
@@ -9,7 +9,7 @@ const FirstSection = () => {
   const { ref } = useParallax({ speed: -10})
 
   return (
-   <div style={{background: 'black', height: '100vh'}}>
+   <div ref={ref} style={{background: 'black', height: '100vh'}}>
      <div className="container">
          <div className="main-block">
            <motion.div

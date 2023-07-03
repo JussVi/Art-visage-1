@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import Anton from '../../visual/img/Anton.png'
-import Zlata from '../../visual/img/Zlata.png'
-import Zalina from '../../visual/img/Zalina.png'
-import Olga from '../../visual/img/Olga.png'
-import Aisuluu from '../../visual/img/Aisuluu.png'
-import Damira from '../../visual/img/Damira.png'
-import ModalWindow from "../modalWindow";
-import '../../pages/MainPage/style.css'
+import Anton from '../../../visual/img/Anton.png'
+import Zlata from '../../../visual/img/Zlata.png'
+import Zalina from '../../../visual/img/Zalina.png'
+import Olga from '../../../visual/img/Olga.png'
+import Aisuluu from '../../../visual/img/Aisuluu.png'
+import Damira from '../../../visual/img/Damira.png'
+import ModalWindow from "../../modalWindow";
+import './style.css'
 
 const FourthSection = () => {
 
