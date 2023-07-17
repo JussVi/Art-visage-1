@@ -17,9 +17,9 @@ function MainPage() {
                 <CircularIndeterminate />
                 :
                 <div className='main-page-wrap'>
-                    <FirstSection />
-                    <SecondSection />
-                    <ThirdSections />
+                    {/*<FirstSection />*/}
+                    {/*<SecondSection />*/}
+                    {/*<ThirdSections />*/}
                     <FourthSection />
                 </div>
             }

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
-    padding-bottom: 8vh;
+    padding-bottom: 20vh;
     overflow: hidden;
 
 }
@@ -28,9 +28,8 @@
 }
 
 .photo-of-master:hover  {
-    scale: 1.1;
     z-index: 2;
-    box-shadow: 1vh 1vw 1vw red, 1vh 1vh 1vw red;
+    box-shadow: 1vh 1vw 1vw white, 1vh 1vh 1vw white;
     color: red;
 }
 
@@ -51,36 +50,6 @@
 
                     /*Стили модального окна*/
 
-.Anton-Shugalsky {
-    display: none;
-    height: 100%;
-}
-
-.Zlata-Zorova {
-    display: none;
-    height: 100%;
-}
-
-.Zalina-Hasanova {
-    display: none;
-    height: 100%;
-}
-
-.Doroganova-Olga {
-    display: none;
-    height: 100%;
-}
-
-.Sultanalieva-Aisuluu {
-    display: none;
-    height: 100%;
-}
-
-.Shakirova_Damira {
-    display: none;
-    height: 100%;
-}
-
 .active-modal {
     display: block;
 }
@@ -94,18 +63,25 @@
 }
 
 .photo-of-master-modal {
-    width: 15vw;
-    height: 35vh;
+    width: 50%;
+    height: auto;
     text-align: center;
-    padding: 2vh;
+    padding: 1vh;
     border-radius: 1vw;
     transition: 0.4s;
     border: 0.1vh solid #7df9ff;
 }
 
+.img-modal {
+    width: 100%;
+    height: auto;
+}
+
 .description-of-master-modal-wrap {
     color: white;
-    margin-left: 3vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .description-of-master-modal-who-is {
